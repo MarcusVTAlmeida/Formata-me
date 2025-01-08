@@ -179,6 +179,7 @@ function Sistemas({ navigation }) {
 }
 
 const adUnitId = 'ca-app-pub-3940256099942544/1033173712';
+
 const interstitial = InterstitialAd.createForAdRequest(adUnitId, {
   requestNonPersonalizedAdsOnly: true,
   keywords: ['fashion', 'clothing'],

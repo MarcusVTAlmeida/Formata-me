@@ -7,7 +7,8 @@ const App = () => {
     <View style={{ alignItems: 'center', alignSelf: 'center' }}>
       <BannerAd
         size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
-        unitId={"ca-app-pub-3940256099942544/6300978111"}
+        unitId={"ca-app-pub-3940256099942544/9214589741"} 
+
         onAdFailedToLoad={(error) => console.error(error)}
       />
     </View>

@@ -5,7 +5,7 @@ import { InterstitialAd } from 'react-native-google-mobile-ads';
 
 const { width } = Dimensions.get('window')
 
-const adUnitId = 'ca-app-pub-3940256099942544/1033173712';
+const adUnitId = 'ca-app-pub-2028860531808564/3601696446';
 
 const interstitial = InterstitialAd.createForAdRequest(adUnitId, {
   requestNonPersonalizedAdsOnly: true,
